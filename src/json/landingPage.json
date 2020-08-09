@@ -8,166 +8,166 @@
   "mostPicked": [
     {
       "_id": "asd1293uasdads1",
-      "name": "Jung Hook Sie",
-      "type": "Apartment",
+      "name": "Domino",
+      "type": "Hotel",
       "imageUrl": "/images/hotel-1.jpeg",
-      "country": "South Korea",
-      "city": "Seoul Flore",
-      "price": "80",
+      "country": "Indonesia",
+      "city": "Bali",
+      "price": "599",
       "unit": "night"
     },
     {
       "_id": "asd1293uasdads1",
-      "name": "The People House",
+      "name": "Karanganyar 2",
       "type": "Hotel",
       "imageUrl": "/images/hotel-2.jpeg",
       "country": "Indonesia",
-      "city": "Bogor",
-      "price": "52",
+      "city": "Bali",
+      "price": "349",
       "unit": "night"
     },
     {
       "_id": "asd1293uasdads1",
-      "name": "House Tour",
-      "type": "Rumah",
+      "name": "Green Park",
+      "type": "Hotel",
       "imageUrl": "/images/hotel-3.jpeg",
-      "country": "South Korea",
-      "city": "Seoul Flore",
-      "price": "80",
+      "country": "Indonesia",
+      "city": "Lombok",
+      "price": "499",
       "unit": "night"
     },
     {
       "_id": "asd1293uasdads1",
-      "name": "Jung Hook Sie",
-      "type": "Apartment",
+      "name": "Rahyangan",
+      "type": "Hotel",
       "imageUrl": "/images/hotel-4.jpeg",
-      "country": "South Korea",
-      "city": "Seoul Flore",
-      "price": "80",
+      "country": "Indonesia",
+      "city": "Malang",
+      "price": "380",
       "unit": "night"
     },
     {
       "_id": "asd1293uasdads1",
-      "name": "Jung Hook Sie",
-      "type": "Apartment",
+      "name": "Roacesta",
+      "type": "Hotel",
       "imageUrl": "/images/hotel-5.jpeg",
-      "country": "South Korea",
-      "city": "Seoul Flore",
-      "price": "80",
+      "country": "Indonesia",
+      "city": "Lombok",
+      "price": "380",
       "unit": "night"
     }
   ],
   "categories": [
     {
       "_id": "asd1293uasdads1",
-      "name": "House with beauty backyard",
+      "name": "Apartments",
       "items": [
         {
           "_id": "asd1293uasdads1",
-          "name": "PSW Antasari",
-          "imageUrl": "/images/image-category-1.jpg",
-          "country": "South Korea",
-          "city": "Seoul Flore",
+          "name": "Senayan Tower",
+          "imageUrl": "/images/apt-1.jpeg",
+          "country": "Indonesia",
+          "city": "Jakarta",
           "isPopular": true
         },
         {
           "_id": "asd1293uasdads1",
-          "name": "Kuretakeso",
-          "imageUrl": "/images/image-category-2.jpg",
-          "country": "South Korea",
-          "city": "Seoul Flore",
+          "name": "Sudirman Center",
+          "imageUrl": "/images/apt-2.jpeg",
+          "country": "Indonesia",
+          "city": "Jakarta",
           "isPopular": false
         },
         {
           "_id": "asd1293uasdads1",
           "name": "Arya Duta",
-          "imageUrl": "/images/image-category-3.jpg",
-          "country": "South Korea",
-          "city": "Seoul Flore",
+          "imageUrl": "/images/apt-3.jpeg",
+          "country": "Indonesia",
+          "city": "Bandung",
           "isPopular": false
         },
         {
           "_id": "asd1293uasdads1",
           "name": "Grand Dhika",
-          "imageUrl": "/images/image-category-4.jpg",
-          "country": "South Korea",
-          "city": "Seoul Flore",
+          "imageUrl": "/images/apt-4.jpeg",
+          "country": "Indonesia",
+          "city": "Surabaya",
           "isPopular": false
         }
       ]
     },
     {
       "_id": "asd1293uasdads1",
-      "name": "Hotels with large living room",
+      "name": "House With Backyard",
       "items": [
         {
           "_id": "asd1293uasdads1",
-          "name": "PSW Antasari",
-          "imageUrl": "/images/image-category-5.jpg",
-          "country": "South Korea",
-          "city": "Seoul Flore",
+          "name": "Parahyangan 2",
+          "imageUrl": "/images/house-by-1.jpeg",
+          "country": "Indonesia",
+          "city": "Bandung",
           "isPopular": false
         },
         {
           "_id": "asd1293uasdads1",
-          "name": "Kuretakeso",
-          "imageUrl": "/images/image-category-6.jpg",
-          "country": "South Korea",
-          "city": "Seoul Flore",
+          "name": "Kerabar",
+          "imageUrl": "/images/house-by-2.jpeg",
+          "country": "Indonesia",
+          "city": "Balikpapan",
           "isPopular": false
         },
         {
           "_id": "asd1293uasdads1",
-          "name": "Arya Duta",
-          "imageUrl": "/images/image-category-7.jpg",
-          "country": "South Korea",
-          "city": "Seoul Flore",
+          "name": "Udab Pas",
+          "imageUrl": "/images/house-by-3.jpeg",
+          "country": "Indonesia",
+          "city": "Bogor",
           "isPopular": false
         },
         {
           "_id": "asd1293uasdads1",
-          "name": "Grand Dhika",
-          "imageUrl": "/images/image-category-8.jpg",
-          "country": "South Korea",
-          "city": "Seoul Flore",
+          "name": "Harmonis",
+          "imageUrl": "/images/house-by-4.jpeg",
+          "country": "Indonesia",
+          "city": "Palembang",
           "isPopular": true
         }
       ]
     },
     {
       "_id": "asd1293uasdads1",
-      "name": "Apartments with kitchen set",
+      "name": "Living Room",
       "items": [
         {
           "_id": "asd1293uasdads1",
-          "name": "PSW Antasari",
-          "imageUrl": "/images/image-category-9.jpg",
-          "country": "South Korea",
-          "city": "Seoul Flore",
+          "name": "Telrose",
+          "imageUrl": "/images/livingroom-1.jpeg",
+          "country": "Indonesia",
+          "city": "Bogor",
           "isPopular": false
         },
         {
           "_id": "asd1293uasdads1",
-          "name": "Kuretakeso",
-          "imageUrl": "/images/image-category-10.jpg",
-          "country": "South Korea",
-          "city": "Seoul Flore",
+          "name": "Grand Kemang 2",
+          "imageUrl": "/images/livingroom-2.jpeg",
+          "country": "Indonesia",
+          "city": "Jakarta",
           "isPopular": false
         },
         {
           "_id": "asd1293uasdads1",
-          "name": "Arya Duta",
-          "imageUrl": "/images/image-category-11.jpg",
-          "country": "South Korea",
-          "city": "Seoul Flore",
+          "name": "Riveria",
+          "imageUrl": "/images/livingroom-3.jpeg",
+          "country": "Indonesia",
+          "city": "Jakarta",
           "isPopular": true
         },
         {
           "_id": "asd1293uasdads1",
-          "name": "Grand Dhika",
-          "imageUrl": "/images/image-category-12.jpg",
-          "country": "South Korea",
-          "city": "Seoul Flore",
+          "name": "Soka",
+          "imageUrl": "/images/livingroom-4.jpeg",
+          "country": "Indonesia",
+          "city": "Lombok",
           "isPopular": false
         }
       ]
