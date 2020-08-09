@@ -17,7 +17,7 @@ export default function Hero(props) {
   
 
   return (
-    <section className="container pt-4">
+    <section className="container pt-4" style={{marginBottom: 60}}>
       <div className="row align-items-center">
         <div className="col-auto pr-5" style={{ width: 530 }}>
           <h1 className="font-weight-bold line-height-1 mb-5">
@@ -25,7 +25,7 @@ export default function Hero(props) {
             Start Next Vacation
           </h1>
           <p
-            class="mb-3 font-weight-light text-gray-500 w-75"
+            className="mb-3 font-weight-light text-gray-500 w-75"
             style={{ lineHeight: "170%" }}
           >
             We provide what you need to enjoy your holiday with your family.
@@ -50,7 +50,7 @@ export default function Hero(props) {
               />
               <h6 className="mt-3">
                 {FormatNumber(props.data.travelers)}{" "}
-                <span class="text-gray-500 font-weight-light">Travelers</span>
+                <span className="text-gray-500 font-weight-light">Travelers</span>
               </h6>
             </div>
             <div className="col-auto" style={{ marginRight: 35 }}>
@@ -62,7 +62,7 @@ export default function Hero(props) {
               />
               <h6 className="mt-3">
                 {FormatNumber(props.data.cities)}{" "}
-                <span class="text-gray-500 font-weight-light">Cities</span>
+                <span className="text-gray-500 font-weight-light">Cities</span>
               </h6>
             </div>
             <div className="col-auto" style={{ marginRight: 35 }}>
@@ -74,7 +74,7 @@ export default function Hero(props) {
               />
               <h6 className="mt-3">
                 {FormatNumber(props.data.treasures)}{" "}
-                <span class="text-gray-500 font-weight-light">Treasure</span>
+                <span className="text-gray-500 font-weight-light">Treasure</span>
               </h6>
             </div>
           </div>
