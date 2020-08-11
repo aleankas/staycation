@@ -2,51 +2,58 @@ import React from "react";
 import Star from "elements/Star";
 import Button from "elements/Button";
 import ImgTestimonyFrame from "assets/images/img_testimonial_frame.png";
+import Fade from "react-reveal/Fade";
 
 export default function Testimony({ data }) {
   return (
-    <section className="container" style={{marginTop: 50}}>
+    <section className="container" style={{ marginTop: 50 }}>
       <div className="row align-items-center">
-        <div className="col-auto" style={{ marginRight: 70 }}>
-          <div
-            class="testimonial-hero"
-            style={{ marginRight: `30px 0 0 30px` }}
-          >
-            <img
-              src={data.imageUrl}
-              alt="Testimonial"
-              className="position-absolute"
-              style={{ zIndex: 1, margin: `20px 0 0 20px` }}
-            />
-            <img
-              src={ImgTestimonyFrame}
-              alt="Testimonial frame"
-              className="position-absolute"
-              style={{ margin: `0 0 0 0` }}
-            />
-          </div>
-        </div>
-        <div class="col">
-          <h4 style={{ marginBottom: 40 }}>{data.name}</h4>
-          <Star value={data.rate} width={35} height={35} spacing={4} />
-          <h5 className="h2 h2 font-weight-light line-height-2 my-3">
-            {data.content}
-          </h5>
-          <span class="text-gray-500">
-            {data.familyName}, {data.familyOccupation}
-          </span>
-          <div>
-            <Button
-              className="btn px-5"
-              style={{ marginTop: 40 }}
-              hasShadow
-              isPrimary
-              type="link"
-              href={`/testimonial/${data._id}`}
+        <Fade left>
+          <div className="col-auto" style={{ marginRight: 70 }}>
+            <div
+              class="testimonial-hero"
+              style={{ marginRight: `30px 0 0 30px` }}
             >
-              Read Their Story
-            </Button>
+              <img
+                src={data.imageUrl}
+                alt="Testimonial"
+                className="position-absolute"
+                style={{ zIndex: 1, margin: `20px 0 0 20px` }}
+              />
+              <img
+                src={ImgTestimonyFrame}
+                alt="Testimonial frame"
+                className="position-absolute"
+                style={{ margin: `0 0 0 0` }}
+              />
+            </div>
           </div>
+        </Fade>
+        <div class="col">
+          <Fade right delay={300}>
+            <h4 style={{ marginBottom: 40 }}>{data.name}</h4>
+            <Star value={data.rate} width={35} height={35} spacing={4} />
+            <h5 className="h2 h2 font-weight-light line-height-2 my-3">
+              {data.content}
+            </h5>
+            <span class="text-gray-500">
+              {data.familyName}, {data.familyOccupation}
+            </span>
+          </Fade>
+          <Fade bottom delay={500}>
+            <div>
+              <Button
+                className="btn px-5"
+                style={{ marginTop: 40 }}
+                hasShadow
+                isPrimary
+                type="link"
+                href={`/testimonial/${data._id}`}
+              >
+                Read Their Story
+              </Button>
+            </div>
+          </Fade>
         </div>
       </div>
     </section>
